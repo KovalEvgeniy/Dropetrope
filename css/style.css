@@ -2840,11 +2840,35 @@ h3 {
     background: #353132; }
 
 .main-header {
-  text-align: center; }
+  text-align: center;
+  margin: 40px 0; }
 
 .menu li {
   display: inline-block;
-  padding: 20px 30px; }
+  padding: 20px 20px; }
+
+.menu a {
+  font-weight: 100;
+  font-style: italic;
+  font-size: 14px;
+  padding: 10px 15px;
+  background: #d52349;
+  color: white;
+  border-radius: 5px; }
+
+.banner {
+  height: 400px;
+  background: url("./img/pic01.jpg"); }
+
+.banner-item {
+  background: black;
+  line-height: 5px; }
+  .banner-item h2 {
+    color: white; }
+
+.banner p {
+  text-align: center;
+  color: red; }
 
 .blog__left--item, .blog__right--item {
   background: #fff; }
@@ -2859,10 +2883,15 @@ h3 {
 .portfolio {
   background: #f7f7f7; }
   .portfolio__item {
-    border-bottom: 1px solid #000;
     padding: 30px 20px; }
-    .portfolio__item > * {
-      padding: 20px 10px; }
+    .portfolio__item__content {
+      border-bottom: 1px solid #000; }
+      .portfolio__item__content > * {
+        margin: 20px 10px; }
+      .portfolio__item__content .btn {
+        display: inline-block;
+        padding: 10px 40px;
+        font-weight: bold; }
 
 .main-footer {
   background: #252122; }

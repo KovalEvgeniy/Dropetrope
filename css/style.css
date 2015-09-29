@@ -3001,17 +3001,16 @@ img {
     color: #252122; }
     .portfolio__caption--main {
       margin: auto;
-      background-color: white;
-      width: 250px;
+      background-color: #f7f7f7;
+      width: 200px;
       color: #252122;
       text-align: center;
       position: relative;
       top: -.7em;
-      font-size: 26px; }
+      letter-spacing: -.5; }
   .portfolio__image {
     min-width: 100%; }
   .portfolio__text {
-    font-weight: 300;
     color: #5e5e5e;
     line-height: 1.65;
     letter-spacing: -1; }

@@ -100,13 +100,24 @@
     }
   }
 }
-
-.contacts{
-    &__social > a {
-        padding: 0 10px;
-        transition: color .4s ease-in-out;
-        &:hover {
-            color: #d52349;
-        }
+.contacts {
+  
+  &-info__item {
+    padding: 15px 0;
+    border-bottom: 1px solid #343434;
+    
+    &:last-child {
+      border-bottom: none; 
     }
+  }
+  
+  &__social > a {
+    padding: 0 10px;
+    transition: color .4s ease-in-out;
+    
+    &:hover {
+      color: #d52349;
+    }
+  }
+  
 }

@@ -3126,6 +3126,11 @@ li {
     .copyright__item:last-child {
       border: none; }
 
+.contacts-info__item {
+  padding: 15px 0;
+  border-bottom: 1px solid #343434; }
+  .contacts-info__item:last-child {
+    border-bottom: none; }
 .contacts__social > a {
   padding: 0 10px;
   transition: color .4s ease-in-out; }

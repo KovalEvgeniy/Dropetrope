@@ -60,7 +60,32 @@ table {
   border-spacing: 0; }
 
 body {
-  background: #f7f7f7; }
+  background: #f7f7f7;
+  font: 16px sans-serif; }
+
+a {
+  text-decoration: none;
+  font-weight: bold; }
+
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center; }
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center; }
+
+h3 {
+  font-weight: bold;
+  padding: 20px 20px 10px; }
+
+p {
+  color: grey;
+  padding: 20px; }
 
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -2802,9 +2827,9 @@ body {
 
 .btn {
   border: none;
-  height: 40px;
   color: #fff;
-  padding: 0 40px;
+  padding: 20px 40px;
+  margin: 10px;
   cursor: pointer;
   transition: .5s;
   font-size: 1rem;
@@ -2815,6 +2840,16 @@ body {
     background: #d52349; }
   .btn__black {
     background: #353132; }
+
+.menu {
+  display: inline-block;
+  color: red; }
+
+h1 {
+  color: red; }
+
+.blog__left--item, .blog__right--item {
+  background: #fff; }
 
 .blog__left--item, .blog__right--item {
   background: #fff; }

@@ -19,7 +19,7 @@
 .number {
   background: #D52349;
   display: inline-block;
-  padding: 8px 12px 8px 16px;
+  padding: 4px 12px 8px 16px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   color: #fff;
@@ -34,6 +34,7 @@
     display: block;
     font-size: 1.6rem;
     font-weight: 500;
+    line-height: 1;
   }
 }
 
@@ -45,12 +46,12 @@
   display: block;
   width: 0;
   height: 0;
-  border-top: 35px solid transparent;
-  border-left: 25px solid #D52349;
-  border-bottom: 35px solid transparent;
+  border-top: 32px solid transparent;
+  border-left: 20px solid #D52349;
+  border-bottom: 32px solid transparent;
   position: absolute;
   top: 0px;
-  right: -25px;
+  right: -20px;
   float: right;
 }
 .info {

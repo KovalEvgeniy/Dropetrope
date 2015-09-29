@@ -5,7 +5,7 @@
 
 .menu li{
   display:inline-block;
-  padding: 20px 20px;
+  padding: 30px 14px;
 }
 
 .menu a{
@@ -17,21 +17,39 @@ background: #d52349;
 color: white;
 border-radius: 5px;
 }
+
+
+
+
+
+h1{
+  color:black;
+  font-weight:bolder;
+ }
 .banner {
-  height:400px;
+  text-align: center;
   background:url('./img/pic01.jpg');
 }
 .banner-item{
+  display: inline-block;
+  margin: 120px;
+  padding:50px 80px;
   background:black;
   line-height: 5px;
+  border-radius: 7px;
+}
   h2{
     color:white;
+    margin-bottom: 10px;
+    font-size: 35px;
   }
-}
+
 .banner p{
   text-align: center;
-  color:red;
-}
+  color:#d52349;
+ margin-top: 50px;
+  font-size:20px;
+  }
   
 
 

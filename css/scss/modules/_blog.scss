@@ -1,6 +1,5 @@
 .blog {
   padding:60px 0;
-  border-bottom
 
   &__border {
     margin-bottom: 1.5em;
@@ -24,6 +23,7 @@
     padding-right: 30px;
 
     &__item--info {
+      border-bottom: 1px solid #ccc;
 
       & > .btn__red {
           margin-left: 40px;

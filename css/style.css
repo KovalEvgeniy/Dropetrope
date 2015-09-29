@@ -2881,11 +2881,22 @@ h3 {
   font-weight: bold; }
 
 .portfolio {
-  background: #f7f7f7; }
+  border-top: 1px solid #ccc;
+  background: #f7f7f7;
+  padding: 50px; }
+  .portfolio__caption {
+    color: #252122; }
+    .portfolio__caption--main {
+      color: #252122;
+      text-align: center; }
+  .portfolio__text {
+    color: #5e5e5e;
+    line-height: 1.65; }
   .portfolio__item {
-    padding: 30px 20px; }
+    padding: 30px 20px;
+    background: white; }
     .portfolio__item__content {
-      border-bottom: 1px solid #000; }
+      border-bottom: 1px solid #ccc; }
       .portfolio__item__content > * {
         margin: 20px 10px; }
 

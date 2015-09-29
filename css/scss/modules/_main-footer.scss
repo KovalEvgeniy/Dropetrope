@@ -19,7 +19,7 @@
 .number {
   background: #D52349;
   display: inline-block;
-  padding: 10px 10px 10px 15px;
+  padding: 8px 12px 8px 16px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   color: #fff;
@@ -45,12 +45,12 @@
   display: block;
   width: 0;
   height: 0;
-  border-top: 37px solid transparent;
+  border-top: 35px solid transparent;
   border-left: 25px solid #D52349;
-  border-bottom: 37px solid transparent;
+  border-bottom: 35px solid transparent;
   position: absolute;
-  top: -1px;
-  right: -24px;
+  top: 0px;
+  right: -25px;
   float: right;
 }
 .info {
@@ -60,7 +60,7 @@
     margin-top: .5rem;
   }
   &__message {
-    color: #777;
+    color: #666;
   }
 
 }

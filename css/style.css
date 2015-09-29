@@ -2844,20 +2844,30 @@ h3 {
   text-align: center;
   margin: 40px 0; }
 
-.menu li {
-  display: inline-block;
-  padding: 30px 14px; }
-
-.menu a {
-  font-weight: 100;
-  font-style: italic;
-  font-size: 14px;
-  padding: 10px 15px;
+.active {
   background: #d52349;
-  color: white;
-  border-radius: 5px; }
+  color: white; }
 
-h1 {
+.main-nav {
+  text-align: center; }
+  .main-nav ul {
+    display: inline-block; }
+  .main-nav__nav-item {
+    display: block;
+    float: left;
+    padding: 30px 14px; }
+    .main-nav__nav-item a {
+      font-weight: 100;
+      font-style: italic;
+      font-size: 14px;
+      padding: 10px 15px;
+      color: #5d5d5d;
+      border-radius: 5px; }
+      .main-nav__nav-item a:hover {
+        background: #d52349;
+        color: white; }
+
+.caption1 {
   color: black;
   font-weight: bolder; }
 
@@ -2868,21 +2878,22 @@ h1 {
 .banner-item {
   display: inline-block;
   margin: 120px;
-  padding: 50px 80px;
+  padding: 50px 85px;
   background: black;
   line-height: 5px;
   border-radius: 7px; }
 
-h2 {
+.caption2 {
   color: white;
   margin-bottom: 10px;
   font-size: 35px; }
 
-.banner p {
+.banner-text {
   text-align: center;
   color: #d52349;
   margin-top: 50px;
-  font-size: 20px; }
+  font-size: 22px;
+  font-weight: normal; }
 
 .blog__left--item, .blog__right--item {
   background: #fff; }
@@ -2950,7 +2961,7 @@ h2 {
 .number {
   background: #D52349;
   display: inline-block;
-  padding: 10px 10px 10px 15px;
+  padding: 8px 12px 8px 16px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   color: #fff;
@@ -2972,18 +2983,18 @@ h2 {
   display: block;
   width: 0;
   height: 0;
-  border-top: 37px solid transparent;
+  border-top: 35px solid transparent;
   border-left: 25px solid #D52349;
-  border-bottom: 37px solid transparent;
+  border-bottom: 35px solid transparent;
   position: absolute;
-  top: -1px;
-  right: -24px;
+  top: 0px;
+  right: -25px;
   float: right; }
 
 .info__caption {
   color: #fff;
   margin-top: .5rem; }
 .info__message {
-  color: #777; }
+  color: #666; }
 
 /*# sourceMappingURL=style.css.map */

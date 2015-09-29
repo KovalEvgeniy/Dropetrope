@@ -3031,7 +3031,8 @@ h3 {
   .portfolio__text {
     font-weight: 300;
     color: #5e5e5e;
-    line-height: 1.65; }
+    line-height: 1.65;
+    font-size: 18px; }
   .portfolio__item {
     padding: 30px 20px; }
     .portfolio__item__content {

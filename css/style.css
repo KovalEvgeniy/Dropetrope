@@ -2880,26 +2880,22 @@ h3 {
   margin: 68px 0;
   line-height: 18px; }
 
-.active {
-  background: #d52349;
-  color: white; }
-
 .main-nav ul {
   display: inline-block; }
 .main-nav__nav-item {
   display: block;
   float: left;
-  padding: 30px 13px; }
+  padding: 30px 13px;
+  color: #5d5d5d; }
+  .main-nav__nav-item--active, .main-nav__nav-item a:hover {
+    background: #d52349;
+    color: white; }
   .main-nav__nav-item a {
     font-weight: 300;
     font-style: italic;
     font-size: 1.1rem;
     padding: 10px 15px;
-    color: #5d5d5d;
     border-radius: 5px; }
-    .main-nav__nav-item a:hover {
-      background: #d52349;
-      color: white; }
 
 .caption1 {
   color: black;
@@ -2913,7 +2909,7 @@ h3 {
 
 .banner-item {
   display: inline-block;
-  margin: 120px;
+  margin: 120px 0;
   padding: 50px 90px;
   background: black;
   line-height: 5px;

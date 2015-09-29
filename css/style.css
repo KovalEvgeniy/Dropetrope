@@ -2822,16 +2822,12 @@ h3 {
   content: "\f280"; }
 
 .btn {
-  display: inline-block;
-  text-decoration: none;
   border: none;
-  color: #fff;
-  padding: 20px 40px;
-  margin: 10px;
+  padding: 0 40px;
+  height: 60px;
   cursor: pointer;
-  transition: .5s;
-  font-size: 1rem;
-  border-radius: 5px; }
+  border-radius: 5px;
+  transition: .5s; }
   .btn:hover {
     opacity: .9; }
   .btn__red {
@@ -2948,5 +2944,7 @@ h3 {
 .info__caption {
   color: #fff;
   margin-top: .5rem; }
+.info__message {
+  color: #777; }
 
 /*# sourceMappingURL=style.css.map */

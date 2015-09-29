@@ -62,7 +62,7 @@ table {
 body {
   background: #f7f7f7;
   font: 16px sans-serif;
-  color: #888; }
+  color: #aaa; }
 
 a {
   text-decoration: none;
@@ -2826,7 +2826,7 @@ h3 {
   text-decoration: none;
   border: none;
   color: #fff;
-  padding: 20px 40px;
+  padding: 20px 30px;
   margin: 10px;
   cursor: pointer;
   transition: .5s;
@@ -2873,19 +2873,45 @@ h3 {
   text-align: center;
   color: red; }
 
-.blog__left--item, .blog__right--item {
-  background: #fff; }
+.blog {
+  padding: 60px 0; }
+  .blog__left {
+    padding-right: 30px; }
+    .blog__left__item--info h3, .blog__right__item--info h3 {
+      font-size: 25px;
+      padding: 30px 40px 10px;
+      color: #000; }
+    .blog__left__item--info u, .blog__right__item--info u {
+      padding: 0 40px;
+      text-decoration: none;
+      font-style: italic; }
+    .blog__left__item--info p, .blog__right__item--info p {
+      font-size: 20px;
+      padding: 50px 40px 30px;
+      line-height: 1.5; }
+  .blog__right {
+    padding-left: 30px; }
+  .blog h2 {
+    text-align: center;
+    color: #000;
+    font-size: 30px; }
+  .blog__left__item, .blog__right__item {
+    background: #fff; }
 
 .blog button i {
   margin-right: 15px;
   opacity: .3; }
 
 .blog button {
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 60px; }
 
-.blog p {
-  padding: 20px 20px 30px; }
+.btn__red {
+  margin-left: 40px; }
+
+img {
+  width: 100%; }
 
 .portfolio {
   background: #f7f7f7; }

@@ -15,18 +15,13 @@
             text-align: center;
             position: relative;
             top: -.7em;
-//            font-size: 22px;
             letter-spacing: -.5;
         }
     }
-    &__image {
-        min-width: 100%;
-    }
     &__text {
-        font-weight: 200;
+        font-weight:300;
         color: #5e5e5e;
         line-height: 1.65;
-//        letter-spacing: -1;
     }
     &__item {
         padding: 30px 20px;

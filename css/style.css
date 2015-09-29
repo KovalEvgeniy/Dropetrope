@@ -2997,10 +2997,8 @@ h3 {
       position: relative;
       top: -.7em;
       letter-spacing: -.5; }
-  .portfolio__image {
-    min-width: 100%; }
   .portfolio__text {
-    font-weight: 200;
+    font-weight: 300;
     color: #5e5e5e;
     line-height: 1.65; }
   .portfolio__item {

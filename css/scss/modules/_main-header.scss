@@ -2,16 +2,11 @@
   text-align: center;
   margin: 40px 0;
 }
-
 .active {
   background: #d52349;
   color:white;
  }
-
-
 .main-nav {
-  
-  text-align: center;
   
   ul {
     display: inline-block;
@@ -23,33 +18,25 @@
     padding: 30px 14px;
     
     a {
-      font-family:'	Source Sans Pro',sans-serif;
-      font-weight: 100;
-      font-style: italic;
-      font-size: 14px;
+      font-weight: 200;
       padding: 10px 15px;
       color: #5d5d5d;
       border-radius: 5px;
       
-    &:hover{
-      background: #d52349;
-      color: white;
-     }
-      
+      &:hover{
+        background: #d52349;
+        color: white;
+      }
     }
-    
   }
 }
-  
-
 .caption1 {
   color: black;
-  font-weight: bolder;
-  font-family:'	Source Sans Pro',sans-serif
- }
+  font-weight: 900;
+}
 .banner {
   text-align: center;
-  background: url('./img/pic01.jpg');
+  background: url('../../img/pic01.jpg');
 }
 .banner-item{
   display: inline-block;
@@ -57,23 +44,16 @@
   padding: 50px 85px;
   background: black;
   line-height: 5px;
-  border-radius: 7px;
+  border-radius: 6px;
 }
 .caption2 {
-  font-family:'	Source Sans Pro',sans-serif;
-  color:white;
+  color: white;
   margin-bottom: 10px;
-  font-size: 35px;
+  font-size: 2.5rem;
 }
-
 .banner-text {
-  text-align: center;
-  color:#d52349;
+  color: #d52349;
   margin-top: 50px;
-  font-family:'	Source Sans Pro',sans-serif;
-  font-size:22px;
-  font-weight: normal;
+  font-size: 1.9rem;
+  font-weight: 300 ;
 }
-  
-
-

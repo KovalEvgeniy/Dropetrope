@@ -2822,16 +2822,12 @@ h3 {
   content: "\f280"; }
 
 .btn {
-  display: inline-block;
-  text-decoration: none;
   border: none;
-  color: #fff;
-  padding: 20px 40px;
-  margin: 10px;
+  padding: 0 40px;
+  height: 60px;
   cursor: pointer;
-  transition: .5s;
-  font-size: 1rem;
-  border-radius: 5px; }
+  border-radius: 5px;
+  transition: .5s; }
   .btn:hover {
     opacity: .9; }
   .btn__red {
@@ -2912,11 +2908,25 @@ h3 {
   padding: 20px 20px 30px; }
 
 .portfolio {
-  background: #f7f7f7; }
+  border-top: 1px solid #ccc;
+  background: #f7f7f7;
+  padding: 50px; }
+  .portfolio__image {
+    min-width: 100%; }
+  .portfolio__caption {
+    color: #252122; }
+    .portfolio__caption--main {
+      color: #252122;
+      text-align: center; }
+  .portfolio__text {
+    color: #5e5e5e;
+    line-height: 1.65;
+    letter-spacing: -1; }
   .portfolio__item {
-    padding: 30px 20px; }
+    padding: 30px 20px;
+    background: white; }
     .portfolio__item__content {
-      border-bottom: 1px solid #000; }
+      border-bottom: 1px solid #ccc; }
       .portfolio__item__content > * {
         margin: 20px 10px; }
 
@@ -2972,5 +2982,7 @@ h3 {
 .info__caption {
   color: #fff;
   margin-top: .5rem; }
+.info__message {
+  color: #777; }
 
 /*# sourceMappingURL=style.css.map */

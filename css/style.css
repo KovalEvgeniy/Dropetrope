@@ -2810,11 +2810,46 @@ table {
   .btn:hover {
     background: rgba(61, 164, 205, 0.9); }
 
+.main-footer {
+  background: #252122; }
+  .main-footer__caption {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600; }
+
+.number {
+  background: #D52349;
+  display: inline-block;
+  padding: 15px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: #fff; }
+  .number__month {
+    display: block;
+    font-weight: 100; }
+  .number__day {
+    display: block;
+    font-size: 1.5rem; }
+
 .triangle-right {
+  position: relative; }
+
+.triangle-right:after {
+  content: "";
+  display: block;
   width: 0;
   height: 0;
-  border-top: 50px solid transparent;
-  border-left: 100px solid red;
-  border-bottom: 50px solid transparent; }
+  border-top: 35px solid transparent;
+  border-left: 25px solid #D52349;
+  border-bottom: 35px solid transparent;
+  position: absolute;
+  top: -4px;
+  right: -20px;
+  float: right; }
+
+.info__caption {
+  color: #fff; }
+.info__message {
+  color: #aaa; }
 
 /*# sourceMappingURL=style.css.map */

@@ -3030,7 +3030,7 @@ h3 {
       color: #252122;
       text-align: center;
       position: relative;
-      top: -.7em;
+      top: -.9em;
       letter-spacing: -.5; }
   .portfolio__text {
     font-weight: 300;
@@ -3043,7 +3043,7 @@ h3 {
       border-bottom: 1px solid #ccc;
       padding: 20px 0; }
       .portfolio__item__content > * {
-        margin: 20px 10px; }
+        margin: 20px; }
 
 .main-footer {
   background: #252122;

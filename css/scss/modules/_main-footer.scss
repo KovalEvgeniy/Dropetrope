@@ -73,3 +73,25 @@
   }
   
 }
+.copyright {
+  
+  text-align: center;
+  padding: 65px;
+  
+  &-wrap {
+    display: inline-block;
+    padding: 18px 30px;
+    background: #302C2D;
+    border-radius: 4px;
+    color: #888;
+  }
+  
+  &__item {
+    padding: 5px 15px;
+    border-right: 1px solid #444;
+    
+    &:last-child {
+      border: none; 
+    }
+  }
+}

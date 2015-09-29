@@ -3073,4 +3073,19 @@ h3 {
   line-height: 1.7;
   margin: 2rem 0; }
 
+.copyright {
+  text-align: center;
+  padding: 65px; }
+  .copyright-wrap {
+    display: inline-block;
+    padding: 18px 30px;
+    background: #302C2D;
+    border-radius: 4px;
+    color: #888; }
+  .copyright__item {
+    padding: 5px 15px;
+    border-right: 1px solid #444; }
+    .copyright__item:last-child {
+      border: none; }
+
 /*# sourceMappingURL=style.css.map */

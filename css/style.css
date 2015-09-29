@@ -2904,6 +2904,8 @@ h2 {
   border-top: 1px solid #ccc;
   background: #f7f7f7;
   padding: 50px; }
+  .portfolio__image {
+    min-width: 100%; }
   .portfolio__caption {
     color: #252122; }
     .portfolio__caption--main {

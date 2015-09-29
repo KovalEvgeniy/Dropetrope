@@ -1,5 +1,6 @@
 .blog {
   padding:60px 0;
+  border-bottom
 
   &__border {
     margin-bottom: 1.5em;
@@ -23,6 +24,11 @@
     padding-right: 30px;
 
     &__item--info {
+
+      & > .btn__red {
+          margin-left: 40px;
+          margin-right: 10px;
+        }
       h3 {
         font-size:25px;
         padding:30px 40px 10px; 
@@ -62,25 +68,14 @@
     @extend .blog__left__item;
   }
 }
-
-
-
 .blog button i {
   margin-right:15px;
   opacity: .3;
 }
-
 .blog button {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 60px;
 }
 
- 
-.btn__red {
-  margin-left: 40px;
-}
 
-img {
-  width: 100%;
-}

@@ -12,14 +12,15 @@
 .date {
   border-bottom: 1px solid #444;
   padding: 25px 0;
-}
-.date:last-child {
-  border: none;
+
+  &:last-child {
+    border: none;
+  }
 }
 .number {
   background: #D52349;
   display: inline-block;
-  padding: 8px 12px 8px 16px;
+  padding: 4px 12px 8px 16px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   color: #fff;
@@ -34,6 +35,7 @@
     display: block;
     font-size: 1.6rem;
     font-weight: 500;
+    line-height: 1;
   }
 }
 
@@ -45,12 +47,12 @@
   display: block;
   width: 0;
   height: 0;
-  border-top: 35px solid transparent;
-  border-left: 25px solid #D52349;
-  border-bottom: 35px solid transparent;
+  border-top: 32px solid transparent;
+  border-left: 20px solid #D52349;
+  border-bottom: 32px solid transparent;
   position: absolute;
   top: 0px;
-  right: -25px;
+  right: -20px;
   float: right;
 }
 .info {
@@ -66,9 +68,35 @@
 }
 .thumbnail {
   
+  @media ( max-width: 980px ) {
+    text-align: center;
+  }
+  
   &__text {
     line-height: 1.7;
     margin: 2rem 0;
   }
   
+}
+.copyright {
+  
+  text-align: center;
+  padding: 65px;
+  
+  &-wrap {
+    display: inline-block;
+    padding: 18px 30px;
+    background: #302C2D;
+    border-radius: 4px;
+    color: #888;
+  }
+  
+  &__item {
+    padding: 5px 15px;
+    border-right: 1px solid #444;
+    
+    &:last-child {
+      border: none; 
+    }
+  }
 }

@@ -61,31 +61,27 @@ table {
 
 body {
   background: #f7f7f7;
-  font: 16px sans-serif; }
+  font: 16px sans-serif;
+  color: #888; }
 
 a {
   text-decoration: none;
-  font-weight: bold; }
+  color: inherit; }
+
+h1, h2, h3 {
+  font-weight: bold;
+  margin: .85rem 0; }
 
 h1 {
-  font-size: 25px;
-  font-weight: bold;
-  padding: 20px;
-  text-align: center; }
+  font-size: 2rem; }
 
 h2 {
-  font-size: 20px;
-  font-weight: bold;
-  padding: 20px;
-  text-align: center; }
+  font-size: 1.5rem;
+  margin: .8rem 0; }
 
 h3 {
   font-weight: bold;
-  padding: 20px 20px 10px; }
-
-p {
-  color: grey;
-  padding: 20px; }
+  margin: .75rem 0; }
 
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -2828,8 +2824,9 @@ p {
 .btn {
   text-decoration: none;
   border: none;
+  height: 40px;
   color: #fff;
-  padding: 20px 40px;
+  padding: 0 40px;
   margin: 10px;
   cursor: pointer;
   transition: .5s;
@@ -2876,6 +2873,13 @@ p {
 .blog__left--item, .blog__right--item {
   background: #fff; }
 
+.blog button i {
+  margin-right: 15px;
+  opacity: .5; }
+
+.blog button {
+  font-weight: bold; }
+
 .portfolio {
   background: #f7f7f7; }
   .portfolio__item {
@@ -2883,5 +2887,47 @@ p {
     padding: 30px 20px; }
     .portfolio__item > * {
       padding: 20px 10px; }
+
+.main-footer {
+  background: #252122; }
+  .main-footer__caption {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600; }
+
+.number {
+  background: #D52349;
+  display: inline-block;
+  padding: 15px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: #fff; }
+  .number__month {
+    display: block;
+    font-weight: 100; }
+  .number__day {
+    display: block;
+    font-size: 1.5rem; }
+
+.triangle-right {
+  position: relative; }
+
+.triangle-right:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 35px solid transparent;
+  border-left: 25px solid #D52349;
+  border-bottom: 35px solid transparent;
+  position: absolute;
+  top: -4px;
+  right: -20px;
+  float: right; }
+
+.info__caption {
+  color: #fff; }
+.info__message {
+  color: #aaa; }
 
 /*# sourceMappingURL=style.css.map */

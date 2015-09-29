@@ -1,8 +1,14 @@
+
 .menu {
 
   color: red;
+
+.main-header{
+  text-align: center;
+}
+.menu li{
+  display:inline-block;
+  padding: 20px 30px;
+
 }
 
-h1 {
-  color: red;
-}

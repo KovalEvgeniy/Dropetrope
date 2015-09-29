@@ -1,5 +1,21 @@
 .blog {
-
+  &__border {
+    margin-bottom: 1.5em;
+    border-top: 1px solid #ccc;
+  }
+  &__caption {
+    color: #252122;
+    &--main {
+      margin: auto;
+      background-color: white;
+      width: 200px;
+      color: #252122;
+      text-align: center;
+      position: relative;
+      top: -.7em;
+      font-size: 26px;
+    }
+  }
   &__left--item {
     background: #fff;
   }

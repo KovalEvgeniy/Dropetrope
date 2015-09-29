@@ -2895,6 +2895,20 @@ h3 {
   font-size: 22px;
   font-weight: normal; }
 
+.blog__border {
+  margin-bottom: 1.5em;
+  border-top: 1px solid #ccc; }
+.blog__caption {
+  color: #252122; }
+  .blog__caption--main {
+    margin: auto;
+    background-color: white;
+    width: 200px;
+    color: #252122;
+    text-align: center;
+    position: relative;
+    top: -.7em;
+    font-size: 26px; }
 .blog__left--item, .blog__right--item {
   background: #fff; }
 

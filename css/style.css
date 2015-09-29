@@ -2822,11 +2822,11 @@ h3 {
   content: "\f280"; }
 
 .btn {
+  display: inline-block;
   text-decoration: none;
   border: none;
-  height: 40px;
   color: #fff;
-  padding: 0 40px;
+  padding: 20px 40px;
   margin: 10px;
   cursor: pointer;
   transition: .5s;
@@ -2888,10 +2888,6 @@ h3 {
       border-bottom: 1px solid #000; }
       .portfolio__item__content > * {
         margin: 20px 10px; }
-      .portfolio__item__content .btn {
-        display: inline-block;
-        padding: 10px 40px;
-        font-weight: bold; }
 
 .main-footer {
   background: #252122; }

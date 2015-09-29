@@ -2802,20 +2802,21 @@ body {
 
 .btn {
   border: none;
-  background: #444;
   height: 40px;
   color: #fff;
   padding: 0 40px;
-  text-shadow: 0 0 1px #aaa;
   cursor: pointer;
   transition: .5s;
-  font-size: 1rem; }
+  font-size: 1rem;
+  border-radius: 5px; }
   .btn:hover {
-    background: rgba(61, 164, 205, 0.9); }
+    opacity: .9; }
+  .btn__red {
+    background: #d52349; }
+  .btn__black {
+    background: #353132; }
 
-.blog__left {
-  float: left; }
-.blog__right {
-  float: right; }
+.blog__left--item, .blog__right--item {
+  background: #fff; }
 
 /*# sourceMappingURL=style.css.map */

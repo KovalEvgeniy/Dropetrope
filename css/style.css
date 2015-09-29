@@ -3006,6 +3006,7 @@ img {
   .portfolio__image {
     min-width: 100%; }
   .portfolio__text {
+    font-weight: 300;
     color: #5e5e5e;
     line-height: 1.65;
     letter-spacing: -1; }

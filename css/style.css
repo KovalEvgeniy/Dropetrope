@@ -3119,4 +3119,10 @@ h3 {
     .copyright__item:last-child {
       border: none; }
 
+.contacts__social > a {
+  padding: 0 10px;
+  transition: color .4s ease-in-out; }
+  .contacts__social > a:hover {
+    color: #d52349; }
+
 /*# sourceMappingURL=style.css.map */

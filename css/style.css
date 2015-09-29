@@ -60,7 +60,32 @@ table {
   border-spacing: 0; }
 
 body {
-  background: #f7f7f7; }
+  background: #f7f7f7;
+  font: 16px sans-serif; }
+
+a {
+  text-decoration: none;
+  font-weight: bold; }
+
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center; }
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center; }
+
+h3 {
+  font-weight: bold;
+  padding: 20px 20px 10px; }
+
+p {
+  color: grey;
+  padding: 20px; }
 
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -2803,9 +2828,9 @@ body {
 .btn {
   text-decoration: none;
   border: none;
-  height: 40px;
   color: #fff;
-  padding: 0 40px;
+  padding: 20px 40px;
+  margin: 10px;
   cursor: pointer;
   transition: .5s;
   font-size: 1rem;
@@ -2817,24 +2842,35 @@ body {
   .btn__black {
     background: #353132; }
 
-<<<<<<< HEAD
 .main-header {
-  text-align: center; }
+  text-align: center;
+  margin: 40px 0; }
 
 .menu li {
   display: inline-block;
-  padding: 20px 30px; }
+  padding: 20px 20px; }
 
-.blog__left {
-  float: left; }
-.blog__right {
-  float: right; }
-=======
-.menu {
-  display: inline-block;
-  color: red; }
+.menu a {
+  font-weight: 100;
+  font-style: italic;
+  font-size: 14px;
+  padding: 10px 15px;
+  background: #d52349;
+  color: white;
+  border-radius: 5px; }
 
-h1 {
+.banner {
+  height: 400px;
+  background: url("./img/pic01.jpg"); }
+
+.banner-item {
+  background: black;
+  line-height: 5px; }
+  .banner-item h2 {
+    color: white; }
+
+.banner p {
+  text-align: center;
   color: red; }
 
 .blog__left--item, .blog__right--item {
@@ -2847,6 +2883,5 @@ h1 {
     padding: 30px 20px; }
     .portfolio__item > * {
       padding: 20px 10px; }
->>>>>>> c8cf269657defda66cfedccb2196c9f2d30d6e11
 
 /*# sourceMappingURL=style.css.map */

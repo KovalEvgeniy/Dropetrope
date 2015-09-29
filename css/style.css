@@ -2838,6 +2838,9 @@ h3 {
   .btn__black {
     background: #353132; }
 
+.container {
+  width: 1400px; }
+
 .main-header {
   text-align: center; }
 
@@ -2857,25 +2860,37 @@ h3 {
       padding: 20px 10px; }
 
 .main-footer {
-  background: #252122; }
+  background: #252122;
+  padding: 45px; }
   .main-footer__caption {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #fff;
-    font-weight: 600; }
+    font-weight: 600;
+    margin: 2.5rem 0; }
+
+.date {
+  border-bottom: 1px solid #444;
+  padding: 25px 0; }
+
+.date:last-child {
+  border: none; }
 
 .number {
   background: #D52349;
   display: inline-block;
-  padding: 15px;
+  padding: 10px 10px 10px 15px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  color: #fff; }
+  color: #fff;
+  text-align: center; }
   .number__month {
     display: block;
-    font-weight: 100; }
+    font-weight: 100;
+    font-size: 1.1rem; }
   .number__day {
     display: block;
-    font-size: 1.5rem; }
+    font-size: 1.6rem;
+    font-weight: 500; }
 
 .triangle-right {
   position: relative; }
@@ -2885,17 +2900,16 @@ h3 {
   display: block;
   width: 0;
   height: 0;
-  border-top: 35px solid transparent;
+  border-top: 37px solid transparent;
   border-left: 25px solid #D52349;
-  border-bottom: 35px solid transparent;
+  border-bottom: 37px solid transparent;
   position: absolute;
-  top: -4px;
-  right: -20px;
+  top: -1px;
+  right: -24px;
   float: right; }
 
 .info__caption {
-  color: #fff; }
-.info__message {
-  color: #aaa; }
+  color: #fff;
+  margin-top: .5rem; }
 
 /*# sourceMappingURL=style.css.map */

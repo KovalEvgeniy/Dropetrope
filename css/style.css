@@ -2875,10 +2875,14 @@ h3 {
 
 .blog button i {
   margin-right: 15px;
-  opacity: .5; }
+  opacity: .3; }
 
 .blog button {
-  font-weight: bold; }
+  font-weight: bold;
+  margin-bottom: 60px; }
+
+.blog p {
+  padding: 20px 20px 30px; }
 
 .portfolio {
   background: #f7f7f7; }

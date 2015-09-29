@@ -2810,4 +2810,11 @@ table {
   .btn:hover {
     background: rgba(61, 164, 205, 0.9); }
 
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid red;
+  border-bottom: 50px solid transparent; }
+
 /*# sourceMappingURL=style.css.map */

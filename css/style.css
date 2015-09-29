@@ -2880,7 +2880,8 @@ h3 {
 
 .main-header {
   text-align: center;
-  margin: 40px 0; }
+  margin: 68px 0;
+  line-height: 18px; }
 
 .active {
   background: #d52349;
@@ -2891,9 +2892,11 @@ h3 {
 .main-nav__nav-item {
   display: block;
   float: left;
-  padding: 30px 14px; }
+  padding: 30px 13px; }
   .main-nav__nav-item a {
-    font-weight: 200;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.1rem;
     padding: 10px 15px;
     color: #5d5d5d;
     border-radius: 5px; }
@@ -2903,7 +2906,9 @@ h3 {
 
 .caption1 {
   color: black;
-  font-weight: 900; }
+  font-weight: 900;
+  font-size: 2.7rem;
+  letter-spacing: -1.5px; }
 
 .banner {
   text-align: center;
@@ -2925,7 +2930,7 @@ h3 {
 .banner-text {
   color: #d52349;
   margin-top: 50px;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   font-weight: 300; }
 
 .blog {

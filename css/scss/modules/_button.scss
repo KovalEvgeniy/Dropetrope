@@ -1,0 +1,17 @@
+.btn {
+
+  border: none;
+  background: #444;
+  height: 40px;
+  color: #fff;
+  padding: 0 40px;
+  text-shadow: 0 0 1px #aaa;
+  cursor: pointer;
+  transition: .5s;
+  font-size: 1rem;
+  
+  &:hover {
+    background: rgba(61, 164, 205, 0.9);
+  }
+  
+}

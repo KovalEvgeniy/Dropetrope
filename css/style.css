@@ -2818,4 +2818,12 @@ body {
 .blog__right {
   float: right; }
 
+.portfolio {
+  background: #f7f7f7; }
+  .portfolio__item {
+    border-bottom: 1px solid #000;
+    padding: 30px 20px; }
+    .portfolio__item > * {
+      padding: 20px 10px; }
+
 /*# sourceMappingURL=style.css.map */

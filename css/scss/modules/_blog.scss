@@ -9,3 +9,12 @@
     @extend .blog__left--item;
   }
 }
+
+.blog button i {
+  margin-right:15px;
+  opacity: .5;
+}
+
+.blog button {
+  font-weight: bold;
+}

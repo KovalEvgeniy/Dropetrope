@@ -10,6 +10,10 @@
   }
   
   &__nav-item {
+    
+    @media ( max-width: 980px ) {
+      width: 100%;
+    }
     display: block;
     float: left;
     padding: 30px 13px;
@@ -27,7 +31,8 @@
       border-radius: 5px;
       
       &:hover{
-        @extend .main-nav__nav-item--active;
+       color:white;
+      background:#d4d4d4;
       }
     }
   }
@@ -45,7 +50,7 @@
 }
 .banner-item {
   display: inline-block;
-  margin: 120px 0;
+  margin: 120px 20px;
   padding: 50px 90px;
   background: black;
   line-height: 5px;

@@ -2919,7 +2919,10 @@ h3 {
   float: left;
   padding: 30px 13px;
   color: #5d5d5d; }
-  .main-nav__nav-item--active, .main-nav__nav-item a:hover {
+  @media (max-width: 980px) {
+    .main-nav__nav-item {
+      width: 100%; } }
+  .main-nav__nav-item--active {
     background: #d52349;
     color: white; }
   .main-nav__nav-item a {
@@ -2928,6 +2931,9 @@ h3 {
     font-size: 1.1rem;
     padding: 10px 15px;
     border-radius: 5px; }
+    .main-nav__nav-item a:hover {
+      color: white;
+      background: #d4d4d4; }
 
 .caption1 {
   color: black;
@@ -2941,7 +2947,7 @@ h3 {
 
 .banner-item {
   display: inline-block;
-  margin: 120px 0;
+  margin: 120px 20px;
   padding: 50px 90px;
   background: black;
   line-height: 5px;

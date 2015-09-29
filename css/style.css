@@ -2824,8 +2824,9 @@ h3 {
 .btn {
   text-decoration: none;
   border: none;
+  height: 40px;
   color: #fff;
-  padding: 20px 40px;
+  padding: 0 40px;
   margin: 10px;
   cursor: pointer;
   transition: .5s;
@@ -2847,6 +2848,13 @@ h3 {
 
 .blog__left--item, .blog__right--item {
   background: #fff; }
+
+.blog button i {
+  margin-right: 15px;
+  opacity: .5; }
+
+.blog button {
+  font-weight: bold; }
 
 .portfolio {
   background: #f7f7f7; }

@@ -1,13 +1,69 @@
 .blog {
+  padding:60px 0;
 
-  &__left--item {
+  &__border {
+    margin-bottom: 1.5em;
+    border-top: 1px solid #ccc;
+  }
+  &__caption {
+    color: #252122;
+    &--main {
+      margin: auto;
+      background-color: #f7f7f7;
+      width: 200px;
+      color: #252122;
+      text-align: center;
+      position: relative;
+      top: -.7em;
+      font-size: 26px;
+    }
+  }
+
+  &__left {
+    padding-right: 30px;
+
+    &__item--info {
+      h3 {
+        font-size:25px;
+        padding:30px 40px 10px; 
+        color: #000;
+      }
+      u {
+        padding:0 40px;
+        text-decoration: none;
+        font-style: italic;
+      }
+      p {
+        font-size:20px;
+        padding: 50px 40px 30px;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  &__right {
+    padding-left: 30px;
+
+    &__item--info {
+      @extend .blog__left__item--info;
+    }
+  }
+  h2 {
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+  }
+    
+  &__left__item {
     background: #fff;
   }
 
-  &__right--item {
-    @extend .blog__left--item;
+  &__right__item {
+    @extend .blog__left__item;
   }
 }
+
+
 
 .blog button i {
   margin-right:15px;
@@ -15,10 +71,16 @@
 }
 
 .blog button {
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 60px;
 }
 
-.blog p {
-  padding: 20px 20px 30px;
+ 
+.btn__red {
+  margin-left: 40px;
+}
+
+img {
+  width: 100%;
 }

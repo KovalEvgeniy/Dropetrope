@@ -1,10 +1,11 @@
 .blog {
+
     
-  &__left {
-    float:left;
+  &__left--item {
+    background: #fff;
   }
 
-  &__right {
-    float:right;
+  &__right--item {
+    @extend .blog__left--item;
   }
 }

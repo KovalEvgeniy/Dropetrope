@@ -2801,18 +2801,23 @@ body {
   content: "\f280"; }
 
 .btn {
+  text-decoration: none;
   border: none;
-  background: #444;
   height: 40px;
   color: #fff;
   padding: 0 40px;
-  text-shadow: 0 0 1px #aaa;
   cursor: pointer;
   transition: .5s;
-  font-size: 1rem; }
+  font-size: 1rem;
+  border-radius: 5px; }
   .btn:hover {
-    background: rgba(61, 164, 205, 0.9); }
+    opacity: .9; }
+  .btn__red {
+    background: #d52349; }
+  .btn__black {
+    background: #353132; }
 
+<<<<<<< HEAD
 .main-header {
   text-align: center; }
 
@@ -2824,5 +2829,24 @@ body {
   float: left; }
 .blog__right {
   float: right; }
+=======
+.menu {
+  display: inline-block;
+  color: red; }
+
+h1 {
+  color: red; }
+
+.blog__left--item, .blog__right--item {
+  background: #fff; }
+
+.portfolio {
+  background: #f7f7f7; }
+  .portfolio__item {
+    border-bottom: 1px solid #000;
+    padding: 30px 20px; }
+    .portfolio__item > * {
+      padding: 20px 10px; }
+>>>>>>> c8cf269657defda66cfedccb2196c9f2d30d6e11
 
 /*# sourceMappingURL=style.css.map */

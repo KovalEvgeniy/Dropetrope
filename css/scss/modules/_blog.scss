@@ -1,6 +1,24 @@
 .blog {
   padding:60px 0;
 
+  &__border {
+    margin-bottom: 1.5em;
+    border-top: 1px solid #ccc;
+  }
+  &__caption {
+    color: #252122;
+    &--main {
+      margin: auto;
+      background-color: #f7f7f7;
+      width: 200px;
+      color: #252122;
+      text-align: center;
+      position: relative;
+      top: -.7em;
+      font-size: 26px;
+    }
+  }
+
   &__left {
     padding-right: 30px;
 
@@ -35,34 +53,17 @@
     color: #000;
     font-size: 30px;
   }
+    
   &__left__item {
-  &__border {
-    margin-bottom: 1.5em;
-    border-top: 1px solid #ccc;
-  }
-  &__caption {
-    color: #252122;
-    &--main {
-      margin: auto;
-      background-color: white;
-      width: 200px;
-      color: #252122;
-      text-align: center;
-      position: relative;
-      top: -.7em;
-      font-size: 26px;
-    }
-  }
-  &__left--item {
     background: #fff;
   }
 
   &__right__item {
     @extend .blog__left__item;
   }
-
-  
 }
+
+
 
 .blog button i {
   margin-right:15px;
@@ -79,6 +80,7 @@
 .btn__red {
   margin-left: 40px;
 }
+
 img {
   width: 100%;
 }

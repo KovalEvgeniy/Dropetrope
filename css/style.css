@@ -2823,16 +2823,14 @@ h3 {
 
 .btn {
   border: none;
-  color: #fff;
-  padding: 20px 30px;
-  margin: 10px;
-  padding: 0 40px;
-  height: 60px;
+  padding: 0 30px;
+  height: 55px;
   cursor: pointer;
   border-radius: 5px;
-  transition: .5s;
-  color: white;
-  font-weight: 800; }
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.1rem;
+  transition: .5s; }
   .btn:hover {
     opacity: .9; }
   .btn__red {
@@ -2841,7 +2839,13 @@ h3 {
     background: #353132; }
 
 .container {
-  width: 1400px; }
+  width: 1200px; }
+
+.underline {
+  text-decoration: underline; }
+
+.color--white {
+  color: white; }
 
 .options__menu {
   text-align: center; }
@@ -3068,5 +3072,9 @@ img {
   margin-top: .5rem; }
 .info__message {
   color: #666; }
+
+.thumbnail__text {
+  line-height: 1.7;
+  margin: 2rem 0; }
 
 /*# sourceMappingURL=style.css.map */

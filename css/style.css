@@ -2847,7 +2847,7 @@ h3 {
 
 .options__menu {
   text-align: center;
-  padding: 100px 0; }
+  padding: 100px 0 60px; }
   .options__menu > h2 {
     padding-top: 80px;
     font-size: 30px;
@@ -2982,7 +2982,7 @@ h3 {
         margin-left: 40px;
         margin-right: 10px; }
       .blog__left__item--info h3, .blog__right__item--info h3 {
-        font-size: 25px;
+        font-size: 20px;
         padding: 30px 40px 10px;
         color: #000; }
       .blog__left__item--info u, .blog__right__item--info u {
@@ -2990,9 +2990,7 @@ h3 {
         text-decoration: none;
         font-style: italic; }
       .blog__left__item--info p, .blog__right__item--info p {
-        font-size: 20px;
-        padding: 50px 40px 30px;
-        line-height: 1.5; }
+        padding: 50px 40px 30px; }
   .blog__right {
     padding-left: 30px; }
   .blog h2 {
@@ -3007,7 +3005,7 @@ h3 {
   opacity: .3; }
 
 .blog button {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 60px; }
 

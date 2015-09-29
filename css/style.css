@@ -2826,6 +2826,7 @@ p {
   content: "\f280"; }
 
 .btn {
+  text-decoration: none;
   border: none;
   color: #fff;
   padding: 20px 40px;
@@ -2846,9 +2847,6 @@ p {
 
 h1 {
   color: red; }
-
-.blog__left--item, .blog__right--item {
-  background: #fff; }
 
 .blog__left--item, .blog__right--item {
   background: #fff; }

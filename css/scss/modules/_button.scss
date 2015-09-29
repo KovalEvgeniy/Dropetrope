@@ -1,17 +1,25 @@
 .btn {
-
+  text-decoration: none;
   border: none;
-  background: #444;
-  height: 40px;
+  // height: 40px;
   color: #fff;
-  padding: 0 40px;
-  text-shadow: 0 0 1px #aaa;
+  padding: 20px 40px;
+  margin: 10px;
+  // text-shadow: 0 0 1px #aaa;
   cursor: pointer;
   transition: .5s;
   font-size: 1rem;
+  border-radius:5px;
   
   &:hover {
-    background: rgba(61, 164, 205, 0.9);
+    opacity: .9;
+  }
+
+  &__red {
+    background: #d52349;
   }
   
+  &__black {
+    background: #353132;
+  }
 }

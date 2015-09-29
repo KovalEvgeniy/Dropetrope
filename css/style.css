@@ -2930,6 +2930,7 @@ h3 {
 
 .blog {
   padding: 60px 0; }
+  border-bottom
   .blog__border {
     margin-bottom: 1.5em;
     border-top: 1px solid #ccc; }
@@ -2946,6 +2947,9 @@ h3 {
       font-size: 26px; }
   .blog__left {
     padding-right: 30px; }
+    .blog__left__item--info > .btn__red, .blog__right__item--info > .btn__red {
+      margin-left: 40px;
+      margin-right: 10px; }
     .blog__left__item--info h3, .blog__right__item--info h3 {
       font-size: 25px;
       padding: 30px 40px 10px;
@@ -2972,15 +2976,9 @@ h3 {
   opacity: .3; }
 
 .blog button {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 60px; }
-
-.btn__red {
-  margin-left: 40px; }
-
-img {
-  width: 100%; }
 
 .portfolio {
   border-top: 1px solid #ccc;
@@ -3002,6 +3000,7 @@ img {
   .portfolio__image {
     min-width: 100%; }
   .portfolio__text {
+    font-weight: 300;
     color: #5e5e5e;
     line-height: 1.65;
     letter-spacing: -1; }

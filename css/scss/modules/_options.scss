@@ -1,5 +1,17 @@
 .options__menu {
   text-align: center;
+  padding:100px 0;
+  
+  & > h2 {
+    padding-top:80px;
+    font-size:30px;
+    color:#000;
+  }
+
+  & > p {
+    font-size:20px;
+  }
+
 
   &--block1 {
     background: #D52349;
@@ -16,9 +28,17 @@
       height: 120px;
     }
   }
+  &--block2 {
+    @extend .options__menu--block1;
+    background: #000;
+  }
+  &--block3 {
+    @extend .options__menu--block1;
+    background: #888;
+  }
 }
 
-.triangle-bottom {
+.triangle-bottom, .triangle-bottom1, .triangle-bottom2 {
   position: relative;
 }
 .triangle-bottom:after {
@@ -32,4 +52,33 @@
   position: absolute;
   right: -1px;
   bottom: -40px;
+}
+
+.triangle-bottom1:after {
+  @extend .triangle-bottom:after;
+  border-top: 40px solid #000;
+}
+.triangle-bottom2:after {
+  @extend .triangle-bottom:after;
+  border-top: 40px solid #888;
+}
+
+.options {
+  background: #fff;
+  text-align: center;
+}
+
+.box-left {
+  box-shadow: inset -24px 1px 15px -7px rgba(176,176,176,.1);
+} 
+
+.box-right {
+  box-shadow: inset 24px 1px 15px -7px rgba(176,176,176,.1);
+}
+.options {
+   button {
+    font-size:25px;
+    padding:20px 80px 50px;
+    margin:0 10px 80px;
+  }
 }

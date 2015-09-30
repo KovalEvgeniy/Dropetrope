@@ -3051,6 +3051,9 @@ li {
       .portfolio__item__content > * {
         margin: 20px; }
 
+@media (max-width: 767px) {
+  .portfolio__item {
+    padding: 5% 15%; } }
 .main-footer {
   background: #252122;
   padding: 45px; }

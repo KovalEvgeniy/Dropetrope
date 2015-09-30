@@ -3035,6 +3035,8 @@ li {
       position: relative;
       top: -.9em;
       letter-spacing: -.5; }
+  .portfolio__image {
+    width: 100%; }
   .portfolio__text {
     font-weight: 300;
     color: #5e5e5e;
